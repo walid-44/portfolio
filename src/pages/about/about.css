@@ -1,0 +1,38 @@
+.image-about {
+  height: fit-content;
+  border: 1px solid var(--first);
+  overflow: hidden;
+  border-radius: 10px;
+  width: fit-content;
+  transform: rotate(-5deg);
+}
+
+.image-about img {
+  width: 300px;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.subtitle-about span {
+  color: var(--first);
+}
+
+.decs-about {
+  color: var(--subtitle);
+}
+.group-skills li{
+  padding: 10px;
+  min-width: 150px ;
+  background-color: var(--border);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}
+.group-skills li svg{
+  color: var(--first);
+  font-size: 1.3rem;
+  margin-left: 10px;
+}

@@ -1,0 +1,42 @@
+.title_home{
+  font-size: max(3rem , 2rem , 1.5rem);
+  font-weight: 700;
+}
+.subtitle_home{
+  font-size: 1.8rem;
+}
+.desc_home{
+  color: var(--subtitle);
+  line-height: 1.6rem;
+}
+.group-coll{
+  display: flex;
+}
+.group-coll a {
+  color: var(--title);
+  background-color: transparent;
+  padding: 10px 15px;
+  margin: 10px 10px 0 0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:8px ;
+  font-size: 1.2rem;
+  font-weight: 500;
+  border: 1px solid var(--title);
+  transition: var(--trans);
+}
+@media (max-width : 575px) {
+  .group-coll a {
+    font-size: 0.85rem;
+    margin: 0;
+    margin-right: 10px;
+  }
+
+}
+
+.group-coll a:hover {
+
+  background-color: var(--bgHeader);
+
+}

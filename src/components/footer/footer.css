@@ -1,0 +1,15 @@
+.footer-text{
+  background-color: var(--first);
+  font-size: 1.5rem;
+  width: 100%;
+}
+.phone-info {
+  font-size: 1.1rem;
+}
+.phone-info  a {
+  color: var(--title);
+}
+.phone-info svg {
+  font-size: 1.3rem;
+  margin-right: 10px;
+}

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Pacifico&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+html {
+  font-family: "Madimi One", sans-serif;
+}
+
+:root {
+  --primary: #000;
+  --secondary: rgb(24 24 27);
+  --border: rgba(63, 63, 70, 0.4);
+  --title: rgb(244, 244, 245);
+  --subtitle: rgb(161, 161, 170);
+  --bgHeader: rgb(39, 39, 42);
+  --first: rgb(93, 188, 252);
+  --trans: 0.4s
+}
+
+body {
+  background-color: var(--primary) !important;
+  color: var(--title);
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--first);
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--border);
+}
+body.dark-theme {
+  --primary: rgb(250 ,250, 250);
+  --secondary: rgba(255, 255, 255, 0.703);
+  --border: rgba(202, 202, 202, 0.518);
+  --title: rgb(39 39 42);
+  --subtitle: rgb(82, 82, 91);
+  --bgHeader: rgb(253, 253, 235);
+  --first: rgb(93, 188, 252);
+  --trans: 0.4s
+}
+.container-page{
+  background: var(--secondary);
+  border: 1px solid var(--border) ;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+  color: initial;
+}
+
+section {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border) ;
+  
+}
+section#Home{
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.title-section{
+  font-size: 4rem;
+  opacity: 0.2;
+  text-align: center;
+  width: fit-content;
+  margin: 3rem auto;
+}

@@ -1,0 +1,29 @@
+.btn-scroll{
+  position: fixed;
+  right: 1.4rem;
+  bottom: 3rem;
+  border: none;
+  padding: 10px;
+  font-size: 1.3rem;
+  background-color: var(--first);
+  border-radius: 5px;
+  display: flex;
+  color: var(--title);
+  
+}
+.btn-scroll svg{
+  font-size: 1.2rem;
+  animation: up-down 1s infinite ;
+  animation-delay: 2s;
+}
+@keyframes up-down {
+  0%{
+    transform: translateY(-10px);
+  }
+  50%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
