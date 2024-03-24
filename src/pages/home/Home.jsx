@@ -59,7 +59,7 @@ const Home = () => {
               <BsFillTelephoneOutboundFill />
             </motion.a>
             <motion.a
-              href="https://drive.google.com/file/d/1lJkKkBtqvMkyBazWJpmGT1Y7xbPQIa49/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1YTnQNcrVRf4loSx4wrpmS5VpKiBzvX5h/view?usp=drive_link"
               variants={variantsText}
               target="_blank"
             >
