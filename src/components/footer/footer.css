@@ -3,6 +3,12 @@
   font-size: 1.5rem;
   width: 100%;
 }
+@media(max-width: 545px) {
+  .footer-text {
+    font-size: 1rem;
+  }
+
+}
 .phone-info {
   font-size: 1.1rem;
 }
