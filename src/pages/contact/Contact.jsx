@@ -21,7 +21,7 @@ const animationContact = {
 const animationContactImage = {
   initial: {
     opacity: 0,
-    x: -500,
+    x: -100,
   },
   animate: {
     opacity: 1,
