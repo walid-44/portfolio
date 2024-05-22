@@ -8,7 +8,7 @@ import Sociol from "../../components/sociol/Sociol";
 
 const variantsText = {
   initial: {
-    x: -500,
+    x: -100,
     opacity: 0,
   },
   animate: {
@@ -79,7 +79,7 @@ const Home = () => {
           animate="animate"
           className="w-100"
         >
-          <motion.img variants={variantsImage} src={SVG} alt="Hero image" />
+          <motion.img rel="preload" variants={variantsImage} src={SVG} alt="Hero image" />
         </motion.div>
       </Col>
     </Row>
